@@ -1,0 +1,19 @@
+-r base.txt
+
+jupyterlab
+ipykernel
+
+matplotlib
+plotly
+
+imbalanced-learn
+
+shap
+
+optuna
+
+mlflow
+
+tqdm
+
+polars

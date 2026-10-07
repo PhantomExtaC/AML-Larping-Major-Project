@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large raw datasets
+data/raw/*.csv
+data/raw/*.txt
+
+# Large processed datasets
+data/processed/*.csv
+data/processed/*.txt
+
+# Generated datasets
+data/generated/*.csv
+data/generated/*.txt
+
+#Dataset graph images
+#graphs/dataset/*.png
+#graphs/dataset/*.jpg
+#graphs/dataset/*.jpeg
+
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

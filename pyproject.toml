@@ -1,0 +1,16 @@
+[project]
+name = "fincrime-intelligence"
+version = "0.1.0"
+description = "Modular financial crime detection and investigation research platform"
+requires-python = ">=3.13,<3.14"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+
+[tool.mypy]
+python_version = "3.13"
+ignore_missing_imports = true
