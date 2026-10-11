@@ -1,0 +1,8 @@
+{
+  "transaction_accounts": 515088,
+  "accounts_metadata_rows": 518581,
+  "covered_accounts": 515088,
+  "missing_accounts": 0,
+  "coverage_rate": 1.0,
+  "missing_account_examples": []
+}

@@ -1,0 +1,24 @@
+{
+  "rows": 518581,
+  "unique_accounts": 518581,
+  "unique_banks": 30470,
+  "unique_source_entities": 166207,
+  "duplicate_account_ids": 0,
+  "missing_values": {
+    "bank_name": 0,
+    "bank_id": 0,
+    "account_number": 0,
+    "source_entity_id": 0,
+    "entity_name": 0,
+    "account_id": 0,
+    "entity_type": 0
+  },
+  "entity_type_distribution": {
+    "Partnership": 189683,
+    "Corporation": 172351,
+    "Sole Proprietorship": 149048,
+    "Country": 6692,
+    "Individual": 740,
+    "Direct": 67
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "integrity": {
+    "rows": 5078345,
+    "unique_transaction_ids": 5078345,
+    "laundering_rows": 5177,
+    "null_sender_ids": 0,
+    "null_receiver_ids": 0,
+    "null_sender_entity_type": 0,
+    "null_receiver_entity_type": 0
+  },
+  "temporal": {
+    "min_sender_age": 0.0,
+    "min_receiver_age": 0.0,
+    "min_sender_prior_count": 0,
+    "min_receiver_prior_count": 0,
+    "min_sender_prev_seconds": 60.0,
+    "min_receiver_prev_seconds": 60.0
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,107 @@
+{
+  "dataset": "IBM AML HI-Small",
+  "columns": [
+    "Timestamp",
+    "From Bank",
+    "Account",
+    "To Bank",
+    "Account.1",
+    "Amount Received",
+    "Receiving Currency",
+    "Amount Paid",
+    "Payment Currency",
+    "Payment Format",
+    "Is Laundering"
+  ],
+  "row_count": 5078345,
+  "class_distribution": {
+    "legitimate": 5073168,
+    "laundering": 5177,
+    "laundering_rate": 0.0010194266045335635
+  },
+  "time_range": {
+    "start": "2022-09-01 00:00:00",
+    "end": "2022-09-18 16:18:00"
+  },
+  "amount_paid": {
+    "min": 1e-06,
+    "max": 1046302363293.48,
+    "mean": 4509273.367741401
+  },
+  "amount_received": {
+    "min": 1e-06,
+    "max": 1046302363293.48,
+    "mean": 5988726.070072803
+  },
+  "entities": {
+    "unique_sender_accounts": 496999,
+    "unique_receiver_accounts": 420640,
+    "unique_accounts_total": 515088,
+    "unique_from_banks": 30470,
+    "unique_to_banks": 15811
+  },
+  "behaviour": {
+    "self_transfer_count": 591212,
+    "cross_bank_count": 4387013,
+    "currency_conversion_count": 72170
+  },
+  "categorical_distributions": {
+    "payment_formats": {
+      "Reinvestment": 481056,
+      "Cheque": 1864331,
+      "Credit Card": 1323324,
+      "ACH": 600797,
+      "Cash": 490891,
+      "Bitcoin": 146091,
+      "Wire": 171855
+    },
+    "payment_currencies": {
+      "US Dollar": 1895172,
+      "Euro": 1168297,
+      "Swiss Franc": 234860,
+      "Yuan": 213752,
+      "Shekel": 192184,
+      "Rupee": 190202,
+      "UK Pound": 180738,
+      "Yen": 155209,
+      "Ruble": 155178,
+      "Bitcoin": 146066,
+      "Canadian Dollar": 140042,
+      "Australian Dollar": 136769,
+      "Mexican Peso": 110159,
+      "Saudi Riyal": 89014,
+      "Brazil Real": 70703
+    },
+    "receiving_currencies": {
+      "US Dollar": 1879341,
+      "Euro": 1172017,
+      "Swiss Franc": 237884,
+      "Yuan": 206551,
+      "Shekel": 194988,
+      "Rupee": 192065,
+      "UK Pound": 181255,
+      "Yen": 156319,
+      "Ruble": 157361,
+      "Bitcoin": 148151,
+      "Australian Dollar": 138511,
+      "Canadian Dollar": 141357,
+      "Mexican Peso": 111030,
+      "Saudi Riyal": 89971,
+      "Brazil Real": 71544
+    }
+  },
+  "missing_values": {
+    "Timestamp": 0,
+    "From Bank": 0,
+    "Account": 0,
+    "To Bank": 0,
+    "Account.1": 0,
+    "Amount Received": 0,
+    "Receiving Currency": 0,
+    "Amount Paid": 0,
+    "Payment Currency": 0,
+    "Payment Format": 0,
+    "Is Laundering": 0
+  },
+  "duplicate_rows_within_chunks": 9
+}
