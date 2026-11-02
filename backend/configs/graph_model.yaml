@@ -1,0 +1,4 @@
+model_version: "graphsage_v1_mock"
+use_gpu: false
+batch_size: 128
+embedding_dim: 128

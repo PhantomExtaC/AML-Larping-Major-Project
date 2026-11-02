@@ -1,0 +1,16 @@
+{
+  "split": "validation",
+  "events_processed": 10000,
+  "mean_latency_ms": 1.5419212717644257,
+  "p95_latency_ms": 2.115834437092224,
+  "alerts_generated": 10,
+  "escalations_triggered": 768,
+  "investigations_deferred": 0,
+  "metrics": {
+    "pr_auc": 0.3679516072290191,
+    "precision": 0.4,
+    "recall": 0.3333333333333333,
+    "f1": 0.36363636363636365,
+    "precision_at_100": 0.07
+  }
+}

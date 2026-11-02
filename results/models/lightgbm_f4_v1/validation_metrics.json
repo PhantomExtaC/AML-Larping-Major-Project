@@ -1,0 +1,11 @@
+{
+  "pr_auc": 0.01795422562886399,
+  "roc_auc": 0.9520837134880292,
+  "positives": 760,
+  "rows": 761646,
+  "positive_rate": 0.0009978388910333671,
+  "model": "lightgbm_f4_v1",
+  "best_iteration": 1,
+  "scale_pos_weight": 1243.3063725490197,
+  "feature_count": 132
+}

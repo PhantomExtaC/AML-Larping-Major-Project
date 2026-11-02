@@ -1,0 +1,14 @@
+# Note: Scores are uncalibrated XGBoost outputs (scale_pos_weight used). 
+# Thresholds are highly rank/budget-sensitive.
+alert_threshold: 0.95896          # Validation best-F1 point
+escalation_threshold: 0.03219     # Validation 80% recall point
+borderline_band:
+  low: 0.01
+  high: 0.03219
+investigation_budget_per_10k: 500
+max_queue_depth: 10000
+risk_bands:
+  low: 0.01
+  medium: 0.03219
+  high: 0.50
+  critical: 0.95896

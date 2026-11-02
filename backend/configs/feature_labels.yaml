@@ -1,0 +1,11 @@
+overrides:
+  amount_paid: "Amount Paid"
+  amount_received: "Amount Received"
+  is_new_counterparty: "New Counterparty Relationship"
+  sender_receiver_prior_tx_count: "Prior Transactions Between Pair"
+  sender_observed_age_days: "Sender Observed Tenure (Days)"
+  receiver_observed_age_days: "Receiver Observed Tenure (Days)"
+  same_currency_amount_delta: "Same Currency Amount Delta"
+  sender_tx_count_1h: "Sender transactions (1 hour)"
+  receiver_tx_count_24h: "Receiver transactions (24 hours)"
+  is_cross_bank: "Cross-Bank Transfer"

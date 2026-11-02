@@ -1,0 +1,46 @@
+{
+  "evaluation_split": "validation",
+  "models": [
+    {
+      "model": "xgboost_f4_v1",
+      "rows": 761646,
+      "positives": 760,
+      "negatives": 760886,
+      "positive_rate": 0.0009978388910333671,
+      "random_pr_baseline": 0.0009978388910333671,
+      "pr_auc": 0.42039259413496793,
+      "roc_auc": 0.9804711226884115,
+      "best_f1": 0.4635865309318716,
+      "best_f1_threshold": 0.9589638113975525,
+      "best_f1_precision": 0.5725338491295938,
+      "best_f1_recall": 0.3894736842105263
+    },
+    {
+      "model": "lightgbm_f4_v1",
+      "rows": 761646,
+      "positives": 760,
+      "negatives": 760886,
+      "positive_rate": 0.0009978388910333671,
+      "random_pr_baseline": 0.0009978388910333671,
+      "pr_auc": 0.01795422562886399,
+      "roc_auc": 0.9520837134880292,
+      "best_f1": 0.03938245354534529,
+      "best_f1_threshold": 1.0,
+      "best_f1_precision": 0.020163453346375943,
+      "best_f1_recall": 0.8407894736842105
+    }
+  ],
+  "recall_targets": [
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "top_k_values": [
+    100,
+    500,
+    1000,
+    5000,
+    10000
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "dataset": "IBM AML HI-Small",
+  "feature_source": "C:\\Projects\\Majorproject\\data\\processed\\hi_small\\modeling\\phase2b\\features.parquet",
+  "split_strategy": "Chronological. Dense Sep 1-10 benchmark split by transaction count while never dividing an identical timestamp. Sep 11-18 preserved separately as a distribution-shift stress set.",
+  "train_target": 0.7,
+  "validation_cumulative_target": 0.85,
+  "train_cutoff": "2022-09-07 14:52:00",
+  "validation_cutoff": "2022-09-09 03:14:00",
+  "tail_start": "2022-09-11 00:00:00",
+  "splits": {
+    "train": {
+      "name": "train",
+      "rows": 3553739,
+      "positives": 2856,
+      "negatives": 3550883,
+      "positive_rate": 0.0008036605952209771,
+      "start": "2022-09-01 00:00:00",
+      "end": "2022-09-07 14:51:00"
+    },
+    "validation": {
+      "name": "validation",
+      "rows": 761646,
+      "positives": 760,
+      "negatives": 760886,
+      "positive_rate": 0.0009978388910333671,
+      "start": "2022-09-07 14:52:00",
+      "end": "2022-09-09 03:13:00"
+    },
+    "test": {
+      "name": "test",
+      "rows": 761852,
+      "positives": 906,
+      "negatives": 760946,
+      "positive_rate": 0.0011892073526091683,
+      "start": "2022-09-09 03:14:00",
+      "end": "2022-09-10 23:59:00"
+    },
+    "tail_stress": {
+      "name": "tail_stress",
+      "rows": 1108,
+      "positives": 655,
+      "negatives": 453,
+      "positive_rate": 0.5911552346570397,
+      "start": "2022-09-11 00:05:00",
+      "end": "2022-09-18 16:18:00"
+    }
+  }
+}

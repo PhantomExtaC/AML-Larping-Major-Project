@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "integrity": {
+    "rows": 5078345,
+    "unique_transaction_ids": 5078345,
+    "laundering_rows": 5177
+  },
+  "rolling_window_violations": {
+    "sender_10m_gt_1h": 0,
+    "sender_1h_gt_6h": 0,
+    "sender_6h_gt_24h": 0,
+    "receiver_10m_gt_1h": 0,
+    "receiver_1h_gt_6h": 0,
+    "receiver_6h_gt_24h": 0
+  },
+  "counterparty_violations": {
+    "sender_unique_gt_tx_1h": 0,
+    "sender_unique_gt_tx_24h": 0,
+    "receiver_unique_gt_tx_1h": 0,
+    "receiver_unique_gt_tx_24h": 0
+  },
+  "lifetime_violations": {
+    "sender": 0,
+    "receiver": 0
+  },
+  "flow_checks": {
+    "flow_balance_min": -1.0,
+    "flow_balance_max": 1.0,
+    "pass_through_min": 0.0,
+    "pass_through_max": 1.0
+  },
+  "nullable_feature_profile": {
+    "sender_amount_mean_24h": 991966,
+    "sender_amount_std_24h": 0,
+    "sender_amount_ratio_to_mean_24h": 991966,
+    "sender_amount_zscore_24h": 1589502,
+    "receiver_amount_mean_24h": 1112165,
+    "receiver_amount_std_24h": 0,
+    "receiver_amount_zscore_24h": 2067452
+  },
+  "columns": 125
+}

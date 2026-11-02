@@ -1,0 +1,18 @@
+paths:
+  raw_data: "data/raw/ibm_aml/hi_small"
+  processed_data: "data/processed/hi_small"
+  xgboost_model: "research/models/baseline/xgboost_f4_v1/model.json"
+  feature_contract: "research/models/baseline/xgboost_f4_v1/feature_definition.json"
+  graph_exports: "data/processed/hi_small/graph_v1"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins:
+    - "http://localhost:5173"
+
+storage:
+  type: "in_memory"
+
+simulation:
+  default_seed: 42

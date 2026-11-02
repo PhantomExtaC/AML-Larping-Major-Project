@@ -1,0 +1,4 @@
+max_hops: 2
+lookback_window_days: 30
+timeout_ms: 5000
+enable_graph_analytics: true
